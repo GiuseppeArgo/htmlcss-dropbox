@@ -170,13 +170,13 @@ img {
 .logo-section {
     /* debug */
     border: 1px solid black;
-    height: 600px;
+    height: 900px;
 }
 
 /* upper logo */
 
 .upper-logo-section {
-    height: 70%;
+    height: 60%;
     /* debug */
     border: 1px solid black;
 }
@@ -202,7 +202,7 @@ img {
 /* lower logo */
 
 .lower-logo-section {
-    height: 30%;
+    height: 40%;
     justify-content: center;
     /* debug */
     background-color: cadetblue;
@@ -216,13 +216,28 @@ img {
 }
 
 .lower-big {
-    border: 1px solid black;
     width: 60%;
+    /* debug */
+    border: 1px solid black;
     height: 100%;
 }
 
 .lower-small {
-    border: 1px solid black;
     width: 40%;
+    /* debug */
+    border: 1px solid black;
     height: 100%;
+}
+
+/* frequent questions section */
+
+.frequent-questions-section {
+    background-color: coral;
+    height: 500px;
+    margin: 50px auto 30px auto;
+}
+
+.questions {
+    border: 1px solid black;
+    height: 25%;
 }
