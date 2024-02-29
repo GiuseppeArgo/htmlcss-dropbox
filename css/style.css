@@ -105,6 +105,7 @@ img {
     /* debug */
     min-height: 400px;
     border: 1px solid black;
+    margin-bottom: 50px;
 }
 
 .image-part{
@@ -119,4 +120,21 @@ img {
     /* /debug */
     background-color: cyan;
     min-height: 400px;
+}
+
+/* main content operations section */
+
+.operations-section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* debug */
+    border: 1px solid black;
+    min-height: 800px;
+}
+
+.info {
+    /* debug */
+    background-color: gray;
+    height: 400px;
 }
