@@ -16,6 +16,25 @@ img {
     display: flex;
 }
 
+.container {
+    width: 40%;
+}
+
+.grow {
+    flex-grow: 1;
+    height: 100px;
+}
+
+.col {
+    width: 30%;
+    height: 600px;
+}
+
+.row {
+    height: 200px;
+    width: 100%;
+}
+
 /* header */
 
 .header {
@@ -32,6 +51,8 @@ img {
 
 /* main */
 
+/* hero */
+
 .hero {
     background-color: blueviolet;
     /* debug */
@@ -45,4 +66,33 @@ img {
     height: 350px;
     width: 50%;
     margin: 0 auto;
+}
+
+/* main central section */
+
+.main-central-section {
+    /* debug */
+    margin: 50px auto;
+    border: 1px solid black;
+    height: 1500px;
+}
+
+.business-plan {
+    /* debug */
+    background-color: blue;
+    height: 150px;
+}
+
+.card-row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    min-height: 850px;
+    margin: 50px 0;
+    border: 1px solid black;
+}
+
+.card {
+    /* debug */
+    background-color: chartreuse;
 }
