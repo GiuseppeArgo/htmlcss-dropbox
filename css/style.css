@@ -1,0 +1,48 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+.header {
+    background-color: aqua;
+    justify-content: space-between;
+    /* debug */
+    height: 100px;
+}
+
+.header-content {
+    background-color: red;
+    width: 40%;
+}
+
+/* main */
+
+.hero {
+    background-color: blueviolet;
+    /* debug */
+    height: 400px;
+    align-items: end;
+}
+
+.hero-content {
+    background-color: burlywood;
+    /* debug */
+    height: 350px;
+    width: 50%;
+    margin: 0 auto;
+}
