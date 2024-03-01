@@ -68,6 +68,10 @@ ul {
     padding-top: 30px;
 }
 
+.pt-50 {
+    padding-top: 50px;
+}
+
 .pb-30 {
     padding-bottom: 30px;
 }
@@ -285,15 +289,6 @@ ul li {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    /* debu*/
-    border: 1px solid black;
-    min-height: 800px;
-}
-
-.info {
-    /* debug */
-    background-color: gray;
-    height: 400px;
 }
 
 /* main logo section */
