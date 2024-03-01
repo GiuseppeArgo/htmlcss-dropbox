@@ -248,60 +248,6 @@ ul li {
     color: blue;
 }
 
-.absolute-u {
-    position: absolute;
-    top: 185px;
-    left: 25px;
-}
-
-.absolute-f {
-    position: absolute;
-    top: 226px;
-    left: 25px;
-}
-
-.absolute-sh {
-    position: absolute;
-    top: 290px;
-    left: 25px;
-}
-
-.first-c {
-    position: absolute;
-    top: 600px;
-    left: 25px;
-}
-
-.second-c {
-    position: absolute;
-    top: 664px;
-    left: 25px;
-}
-
-.second-check {
-    position: absolute;
-    top: 642px;
-    left: 25px;
-
-}
-
-.third-c {
-    position: absolute;
-    top: 705px;
-    left: 25px;
-}
-
-.fourth-c {
-    position: absolute;
-    top: 768px;
-    left: 25px;
-}
-
-.fifth-c {
-    position: absolute;
-    top: 831px;
-    left: 25px;
-}
 
 .justify-c {
     flex-direction: column;
@@ -309,26 +255,29 @@ ul li {
 
 /** main content image section */
 
-.image-section {
-    /* debug */
-    min-height: 400px;
-    border: 1px solid black;
-    margin-bottom: 50px;
+.partner {
+    max-width: 90%;
+}
+
+.text-part h3 {
+    font-size: 1.6rem;
 }
 
 .image-part{
     width: 60%;
-    /* debug */
-    background-color: crimson;
-    min-height: 400px;
 }
 
 .text-part {
     width: 40%;
-    /* /debug */
-    background-color: cyan;
-    min-height: 400px;
 }
+
+.gray-b {
+    padding: 7px 15px;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+} 
 
 /** main content operations section */
 
@@ -336,7 +285,7 @@ ul li {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    /* debug */
+    /* debu*/
     border: 1px solid black;
     min-height: 800px;
 }
