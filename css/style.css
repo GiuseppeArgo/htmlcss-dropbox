@@ -187,12 +187,18 @@ input[type="checkbox"] {
     margin: 50px 0;
 }
 
+ul li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
 .card {
     border: 1px solid lightgray;
 }
 
 .card p {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .card hr {
@@ -232,7 +238,6 @@ input[type="checkbox"] {
 
 .plans {
     padding-bottom: 20px;
-    padding-left: 20px;
 }
 
 .card-a {
