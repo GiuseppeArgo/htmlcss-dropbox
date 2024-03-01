@@ -34,7 +34,6 @@ body {
 
 .col {
     width: calc(100% / 3 - 40px /3);
-    height: 600px;
 }
 
 .row {
@@ -44,10 +43,6 @@ body {
 
 ul {
     list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 .mb-10 {
@@ -60,9 +55,16 @@ a {
 
 .absolute {
     position: absolute;
-    top: 0;
-    right: 0;
 }
+
+.t-c {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c-blue {
+    color: #0962ff;
+ }
 
 /* header */
 
@@ -74,6 +76,7 @@ a {
 }
 
 .nav a {
+    text-decoration: none;
     color: #6c6c6c;
 }
 
@@ -88,6 +91,14 @@ nav li {
     background-color: #0061ff;
     color: #e0ecff;
     padding: 7px 15px;
+}
+
+.small-p {
+    font-weight: 100;
+}
+
+.text-n {
+    text-decoration: none;
 }
 
 /* main */
@@ -130,18 +141,25 @@ h1 {
 /* main central section */
 
 .main-central-section {
-    /* debug */
     padding-top: 150px;
     margin: 0 auto;
-    border: 1px solid black;
-    min-height: 1500px;
 }
 
-.business-plan {
-    /* debug */
-    background-color: blue;
-    height: 150px;
+h2 {
+    font-size: 2.6rem;
 }
+
+input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.business-plan p {
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
 
 /** main content card section */
 
@@ -151,12 +169,92 @@ h1 {
     /* debug */
     min-height: 850px;
     margin: 50px 0;
-    border: 1px solid black;
 }
 
 .card {
-    /* debug */
-    background-color: chartreuse;
+    border: 1px solid lightgray;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
+
+.card hr {
+    width: 18%;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.card-padding {
+    padding: 30px 25px 0 25px;
+    position: relative;
+}
+
+.user {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.card h4 {
+    padding-bottom: 30px;
+}
+
+.price {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.plans-list {
+    padding-top: 50px;
+}
+
+.plans {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.card-a {
+    padding: 30px 0;
+}
+
+.card-padding a {
+    color: blue;
+}
+
+.absolute-u {
+    position: absolute;
+    top: 185px;
+    left: 25px;
+}
+
+.absolute-f {
+    position: absolute;
+    top: 226px;
+    left: 25px;
+}
+
+.absolute-sh {
+    position: absolute;
+    top: 290px;
+    left: 25px;
+}
+
+.first-c {
+    position: absolute;
+    top: 600px;
+    left: 25px;
+}
+
+.second-c {
+    position: absolute;
+    top: 664px;
+    left: 25px;
 }
 
 /** main content image section */
