@@ -56,6 +56,10 @@ ul {
     margin-bottom: 10%;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mt-10 {
     margin-top: 10%;
 }
@@ -95,6 +99,11 @@ ul {
 
 .c-blue {
     color: #0962ff;
+}
+
+.f-container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -451,8 +460,6 @@ ul li {
 
 .footer {
     background-color: black;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer-content h3 {
@@ -475,12 +482,22 @@ ul li {
 }
 
 .footer-content {
-    width: 70%;
     height: 80%;
     display: flex;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .footer-lists {
     width: 20%;
+}
+
+.footer hr {
+    color: white;
+    width: 10%;
+}
+
+.language {
+    color: #999999;
+    align-items: center;
 }
