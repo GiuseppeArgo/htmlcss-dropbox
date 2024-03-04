@@ -13,9 +13,21 @@ img {
 /* common */
 
 body {
-    font-family: "Open Sans", sans-serif;;
+    font-family: "Open Sans", sans-serif;
 }
 
+.blue-b:hover {
+    filter: brightness(140%);
+}
+
+.gray-b:hover {
+    filter: brightness(130%);
+    cursor: pointer;
+}
+
+.white-b:hover {
+    filter: brightness(140%);
+}
 
 /* utilities */
 
@@ -108,6 +120,15 @@ ul {
 
 /* header */
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 9999;
+}
+
 .nav {
     justify-content: space-between;
     text-align: center;
@@ -140,6 +161,11 @@ nav li {
 
 .text-n {
     text-decoration: none;
+}
+
+header li:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 /* main */
@@ -306,6 +332,7 @@ ul li {
     border: 1px solid black;
     text-decoration: none;
     color: black;
+    filter: brightness(80%);
 } 
 
 /** main content operations section */
@@ -454,6 +481,15 @@ ul li {
 
 .frequent-questions-section i {
     padding-left: 280px;
+}
+
+.none {
+    display: none;
+}
+
+.question:hover .none{
+    display: block;
+    padding: 20px 0;
 }
 
 /* footer */
